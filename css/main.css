@@ -1,0 +1,31 @@
+body{
+    background-image:url('https://cdn.pixabay.com/photo/2019/08/19/15/13/eiffel-tower-4416700__340.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.mainText{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: blueviolet;
+    height: 350px;
+}
+
+.mainButton-wrap{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 250px;
+}
+
+.mainButton{
+    width: 110px;
+    height: 40px;
+    font-size: 18px;
+    color:blueviolet;
+    border-color: blueviolet;
+    border-width: 1px;
+    background-color: white;
+}
