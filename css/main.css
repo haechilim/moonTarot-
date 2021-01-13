@@ -29,3 +29,7 @@ body{
     border-width: 1px;
     background-color: white;
 }
+
+.mainButton:hover {
+    transform: scale( 1.2 );
+}
