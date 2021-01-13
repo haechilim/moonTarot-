@@ -1,13 +1,23 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 230px;
+    padding-right: 230px;
+}
+
 .mainText{
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: 40px;
+    color:blueviolet;
     height: 200px;
 }
 
 .resultImage{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     height: 600px;
 }
 
@@ -17,11 +27,10 @@
     object-fit: contain;
 }
 
-aside{
+.buttonContainer {
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
-    height: 100px;
 }
 
 .resultButton{
