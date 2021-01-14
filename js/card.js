@@ -11,7 +11,12 @@ function initCards() {
     }
 }
 
-function makeHtml() {
+function newHtml() {
+    makeCardHtml();
+    makeButtonHtml();
+}
+
+function makeCardHtml() {
     var html = "";
     var cardIndex = COLUMN_COUNT * ROW_COUNT * (currentPage - 1);
     if(cardIndex >= TOTAL_CARD_COUNT) return;
@@ -31,9 +36,7 @@ function makeHtml() {
         html += '</div>';
     }
 
-    html += makeButtonHtml();
-
-    document.querySelector(".container").innerHTML = html;
+    document.querySelector(".imageContainer").innerHTML = html;
 }
 
 function makeButtonHtml() {
@@ -49,12 +52,12 @@ function makeButtonHtml() {
     html += '<button id="next" class="button" type="button">다음</button>' +
     '</div>';
 
-    return html;
+    document.querySelector(".buttonContainer").innerHTML = html;
 }
 
 document.addEventListener("DOMContentLoaded", function() {
     initCards();
-    makeHtml();
+    newHtml();
     showButton();
     bindEvents();
 });
@@ -69,6 +72,7 @@ function bindEvents() {
                 if(target == element) currentPage = pageNumber;
             }
 
+            makeCardHtml();
             selectedButtonColor();
             showButton();
         });
@@ -79,6 +83,7 @@ function bindEvents() {
 
         if(currentPage <= 0 || currentPage > getTotalPageCount()) return;
 
+        makeCardHtml();
         selectedButtonColor();
         showButton();
     });
@@ -88,6 +93,7 @@ function bindEvents() {
 
         if(currentPage <= 0 || currentPage > getTotalPageCount()) return;
 
+        makeCardHtml();
         selectedButtonColor();
         showButton();
     });
