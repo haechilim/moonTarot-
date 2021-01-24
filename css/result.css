@@ -40,13 +40,14 @@
 }
 
 .resultButton{
-    width: 150px;
+    width: 160px;
     height: 40px;
     font-size: 18px;
     color:blueviolet;
     border-color: blueviolet;
     border-width: 1px;
     background-color: white;
+    font-family: 'LHANDW';
 }
 
 .resultButton:hover {

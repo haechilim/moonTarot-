@@ -28,13 +28,14 @@ body{
 }
 
 .mainButton{
-    width: 110px;
+    width: 130px;
     height: 40px;
     font-size: 18px;
     color:blueviolet;
     border-color: blueviolet;
     border-width: 1px;
     background-color: white;
+    font-family: 'LHANDW';
 }
 
 .mainButton:hover {
