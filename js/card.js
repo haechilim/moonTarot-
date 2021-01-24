@@ -41,7 +41,7 @@ function makeCardHtml() {
 
 function makeButtonHtml() {
     var html = '<div class="buttonContainer">' +
-        '<button id="previous" class="button" type="button">이전</button>';
+        '<button id="previous" class="button" type="button">prev</button>';
 
         for(var i = 0; i < getTotalPageCount(); i++) {
             var page = i + 1;
@@ -49,7 +49,7 @@ function makeButtonHtml() {
             html += '<button id="page' + page + '" class="pageButton" type="button">' + page + '</button>'    
         }
         
-    html += '<button id="next" class="button" type="button">다음</button>' +
+    html += '<button id="next" class="button" type="button">next</button>' +
     '</div>';
 
     document.querySelector(".buttonContainer").innerHTML = html;
