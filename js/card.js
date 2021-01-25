@@ -25,7 +25,7 @@ function makeCardHtml() {
         html += '<div class="rowContainer">';
 
         for(var j = 0; j < COLUMN_COUNT; j++) {
-            html += '<img class="card" src="image/card' + cardIndex++ + '.png">'
+            html += '<img class="card" src="image/image' + cardIndex++ + '.png">'
 
             if(cardIndex >= TOTAL_CARD_COUNT) {
                 i = ROW_COUNT;
