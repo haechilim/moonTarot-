@@ -4,5 +4,12 @@
 }
 
 body{
+    background-image:url('../image/main.png');
+    background-repeat: no-repeat;
+    background-size: cover;
     font-family: 'LHANDW';
+}
+
+p{
+    color:white;
 }

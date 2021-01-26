@@ -13,7 +13,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    color: blueviolet;
+    color: white;
     height: 350px;
     font-family: 'LHANDW';
     font-size: 30px;
@@ -31,10 +31,10 @@ body{
     width: 130px;
     height: 40px;
     font-size: 18px;
-    color:blueviolet;
-    border-color: blueviolet;
+    color:black;
+    border-color: black;
     border-width: 1px;
-    background-color: white;
+    background-color:white;
     font-family: 'LHANDW';
 }
 

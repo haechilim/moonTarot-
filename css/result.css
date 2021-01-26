@@ -3,6 +3,12 @@
     src:url("../font/LHANDW.TTF");
 }
 
+body{
+    background-image:url('../image/main.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .container {
     display: flex;
     flex-direction: column;
@@ -16,7 +22,7 @@
     justify-content: center;
     align-items: center;
     font-size: 30px;
-    color:blueviolet;
+    color:white;
     height: 200px;
     font-family: 'LHANDW';
 }
@@ -43,10 +49,10 @@
     width: 160px;
     height: 40px;
     font-size: 18px;
-    color:blueviolet;
-    border-color: blueviolet;
+    color:black;
+    border-color: black;
     border-width: 1px;
-    background-color: white;
+    background-color:white;
     font-family: 'LHANDW';
 }
 

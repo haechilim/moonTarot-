@@ -4,6 +4,9 @@
 }
 
 body{
+    background-image:url('../image/main.png');
+    background-repeat: no-repeat;
+    background-size: cover;
     font-family: 'LHANDW';
 }
 
@@ -40,8 +43,8 @@ body{
     font-family: 'LHANDW';
     font-size: 18px;
     text-align: center;
-    color:blueviolet;
-    border-color: blueviolet;
+    color:black;
+    border-color: black;
     border-width: 1px;
     background-color: white;
 }
@@ -54,7 +57,7 @@ body{
     color:black;
     border: 0;
     outline: 0;
-    background-color: white;
+    background-color:white;
 }
 
 .currentPage {

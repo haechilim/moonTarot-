@@ -4,6 +4,9 @@
 }
 
 body{
+    background-image:url('../image/main.png');
+    background-repeat: no-repeat;
+    background-size: cover;
     font-family: 'LHANDW';
 }
 
@@ -30,6 +33,7 @@ body{
 
 .comment {
     width: 600px;
+    color:white;
 }
 
 .moreExplanation {
@@ -37,4 +41,5 @@ body{
     padding-top: 50px;
     padding-left: 100px;
     padding-right: 100px;
+    color:white;
 }
