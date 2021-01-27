@@ -6,10 +6,13 @@ document.addEventListener("DOMContentLoaded", function() {
     for(var i = 0; i < SELECT_CARD_COUNT; i++) {
         var random = Math.floor(Math.random() * TOTAL_CARD_COUNT);
 
-        if(isSelected(random)) continue;
+        if(isSelected(random)) {
+            i--;
+            continue;
+        }
 
         cards[i] = random;
-        document.getElementById("card" + (i + 1)).setAttribute("src", "image/image" + cards[i] + ".png");
+        document.getElementById("card" + (i + 1)).setAttribute("src", "image/image" + cards[i] + ".PNG");
     }
 });
 
