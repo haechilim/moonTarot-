@@ -8,6 +8,9 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     font-family: 'LHANDW';
+    background-image:url('../image/main.png');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .container {
@@ -28,5 +31,6 @@ body{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    color: #ffffff;
     width: 900px;
 }

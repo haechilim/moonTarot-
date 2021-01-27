@@ -25,7 +25,7 @@ function makeCardHtml() {
         html += '<div class="rowContainer">';
 
         for(var j = 0; j < COLUMN_COUNT; j++) {
-            html += '<img class="card" src="image/image' + cardIndex++ + '.png">'
+            html += '<a href="CardExplain.html?card=' + cardIndex + '"><img class="card" src="image/image' + cardIndex++ + '.png"></a>'
 
             if(cardIndex >= TOTAL_CARD_COUNT) {
                 i = ROW_COUNT;
@@ -59,6 +59,7 @@ document.addEventListener("DOMContentLoaded", function() {
     initCards();
     newHtml();
     showButton();
+    selectedButtonColor();
     bindEvents();
 });
 
@@ -109,7 +110,7 @@ function selectedButtonColor() {
             continue;
         }
 
-        target.style.color = "#000000";
+        target.style.color = "#ffffff";
     }
 }
 
@@ -144,8 +145,4 @@ function showPreviousButton(visible) {
 
 function showNextButton(visible) {
     document.getElementById("next").style.visibility = visible ? "visible" : "hidden";
-}
-
-function showNext(visible) {
-    document.querySelector(".next").style.display = visible ? "flex" : "none";
 }

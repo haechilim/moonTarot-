@@ -8,6 +8,9 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     font-family: 'LHANDW';
+    background-image:url('../image/main.png');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .container {
@@ -43,10 +46,10 @@ body{
     font-family: 'LHANDW';
     font-size: 18px;
     text-align: center;
-    color:black;
-    border-color: black;
+    color:blueviolet;
+    border-color: blueviolet;
     border-width: 1px;
-    background-color: white;
+    background-color: rgba( 255, 255, 255, 0 );
 }
 
 .pageButton {
@@ -54,10 +57,10 @@ body{
     height: 40px;
     font-size: 18px;
     text-align: center;
-    color:black;
+    color:#ffffff;
     border: 0;
     outline: 0;
-    background-color:white;
+    background-color: rgba( 255, 255, 255, 0 );
 }
 
 .currentPage {

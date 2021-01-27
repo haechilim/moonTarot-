@@ -8,8 +8,30 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     font-family: 'LHANDW';
+<<<<<<< HEAD
 }
 
 p{
     color:white;
+=======
+    background-image:url('../image/main.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+}
+
+.title {
+    text-align: center;
+}
+
+.contents {
+    width: 800px;
+>>>>>>> 6b992bf (카드 설명, 키워드가 실 데이터로 나오게 수정)
 }

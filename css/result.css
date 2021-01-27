@@ -3,7 +3,7 @@
     src:url("../font/LHANDW.TTF");
 }
 
-body{
+body {
     background-image:url('../image/main.png');
     background-repeat: no-repeat;
     background-size: cover;

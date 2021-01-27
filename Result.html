@@ -3,19 +3,20 @@
     <meta charset="UTF-8">
     <title>MoonTarot</title>
     <link rel="stylesheet" href="css/result.css">
+    <script src="js/result.js"></script>
 </head>
 <body>
     <div class="mainText"><h1>RESULT</h1></div>
     
     <div class="container">
         <div class="resultImage">
-            <img class="cardImage" src="image/back.png" alt="1st Image">
-            <img class="cardImage" src="image/back.png" alt="2nd Image">
-            <img class="cardImage" src="image/back.png" alt="3rd Image">
+            <img class="cardImage" id="card1" src="image/back.png" alt="1st Image">
+            <img class="cardImage" id="card2" src="image/back.png" alt="2nd Image">
+            <img class="cardImage" id="card3" src="image/back.png" alt="3rd Image">
         </div>
 
         <div class="buttonContainer">
-            <button class="resultButton" type="button" onclick="location.href='Comment.html' ">Solution View</button>
+            <button class="resultButton" type="button" onclick="nextPage()">Solution View</button>
         </div>
     </div>
 </body>
